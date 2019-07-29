@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://www.zeroturnaround.com">
+  <classpath>
+    <dir name="C:\commerce-suite-6.0.0.0-RELEASE\hybris\bin\custom\mercury\mercurycore/hmc/classes" />
+  </classpath>
+</application>
