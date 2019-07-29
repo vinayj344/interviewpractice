@@ -7,10 +7,10 @@
     <extension name='commerceservicesbackoffice' />
     <extension name='solrfacetsearchbackoffice' />
     <extension name='solrserver' />
-    <extension name='yacceleratorcockpits' />
+   <!--  <extension name='yacceleratorcockpits' />
     <extension name='yacceleratorinitialdata' />
     <extension name='yacceleratorfulfilmentprocess' />
-    <extension name='yacceleratorstorefront' />
+    <extension name='yacceleratorstorefront' /> -->
     <extension name='yaddon' />
     <extension name='ycommercewebservices' />
     <extension name='electronicsstore' />
@@ -22,5 +22,12 @@
     <extension name='promotionenginebackoffice' />
     <extension name='droolsruleengineservices' />
     <extension name='promotionenginesamplesaddon' />
+	<extension name="mercurycore"/>
+    <extension name="mercuryfacades"/>
+    <extension name="mercurystorefront"/>
+    <extension name="mercuryinitialdata"/>
+<!--<extension dir="C:\commerce-suite-6.0.0.0-RELEASE\hybris\bin/custom/mercury/mercurytest"/>-->      
+	<extension name="mercurycockpits"/>
+    <extension name="mercuryfulfilmentprocess"/>
   </extensions>
 </hybrisconfig>
