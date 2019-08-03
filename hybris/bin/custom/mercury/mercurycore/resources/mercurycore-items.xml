@@ -38,6 +38,17 @@
 	</enumtypes>
 
 	<itemtypes>
+	
+	 <itemtype code="Customer"
+                  autocreate="false"
+                  generate="false">
+            <attributes>
+                <attribute autocreate="true" qualifier="airpoints" type="java.lang.Integer">
+                    <modifiers read="true" write="true" search="true"/>
+                    <persistence type="property"/>
+                </attribute>
+            </attributes>
+        </itemtype>
 
 		<itemtype code="EveryReply" autocreate="true" generate="true"
 			jaloclass="org.mercury.core.jalo.EveryReply">
