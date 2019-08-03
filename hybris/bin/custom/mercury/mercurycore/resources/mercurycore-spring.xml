@@ -436,4 +436,12 @@
 		<property name="rootCategoryCode" value="categories"/>
 	</bean>
 	
+	<alias name="airpointDAOImpl" alias="airpointDAO"/>
+	<bean id="airpointDAOImpl" class="org.mercury.core.DAO.airpoints.impl.AirpointDAOImpl">
+		<property name="flexibleSearchService" ref="flexibleSearchService"></property>
+	</bean>
+	
+	<bean id="airpointService" class="org.mercury.core.service.airpoints.impl.AirpointServiceImpl">
+	<property name="airpointDAO" ref="airpointDAO"></property>
+	</bean>
 </beans>

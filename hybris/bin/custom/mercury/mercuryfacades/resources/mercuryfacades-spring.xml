@@ -256,6 +256,12 @@
 		parent="variantCommerceSearchResultProductPopulator"></bean>
 
 
+	<!-- <alias name="mercuryCheckoutFacade" alias="checkoutFacade"/> -->
+	<bean id="mercuryCheckoutFacade" class="org.mercury.facades.checkout.MercuryCheckoutFacade" 
+		parent="defaultCheckoutFacade">
+	<property name="airpointService" ref="airpointService"></property>	
+	</bean>
+	
 </beans>
 
 
